@@ -1,0 +1,46 @@
+# ───────────────────────────────────────────
+# .dockerignore — Forex Algo Bot Dashboard
+# Évite d'envoyer des fichiers inutiles au démon Docker
+# ───────────────────────────────────────────
+
+# Git
+.git/
+.gitignore
+.gitignore-hf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+env/
+venv/
+
+# Logs
+*.log
+logs/
+
+# Data du bot
+memory.json
+*.pkl
+xgb_model.json
+training_data.csv
+
+# Fichiers Windows
+Thumbs.db
+desktop.ini
+nul
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Déploiements alternatifs (pas besoin dans l'image Docker)
+.replit
+README-hf.md
+README.md
+bouton.bat
+_deploy_hf.py

@@ -1,24 +1,25 @@
-# 📈 Forex Algo Bot — Render Blueprint
+# 📈 Forex Algo Bot — Render Blueprint (Docker)
 # https://render.com/docs/blueprint-spec
 # 
 # 1. Push ce dossier sur GitHub
 # 2. Va sur https://dashboard.render.com/blueprints
 # 3. Connecte ton repo GitHub
-# 4. Render déploie automatiquement !
+# 4. Render détecte le Dockerfile et déploie automatiquement !
 
 services:
-  # ─── Web Service: Forex Algo Bot ───────────────────────────
+  # ─── Web Service: Forex Algo Bot (Docker) ──────────────────
   - type: web
     name: forex-algo-bot
-    runtime: python
+    runtime: docker
     plan: free
-    buildCommand: pip install -r requirements-hf.txt
-    startCommand: python app.py
+    dockerfilePath: ./Dockerfile
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.12.0
       - key: PORT
-        value: 10000
+        value: 7860
     healthCheckPath: /
     autoDeploy: true
     # Domaine : https://forex-algo-bot.onrender.com
+    # 
+    # ⚠️ ATTENTION : Le plan gratuit Render s'endort après 15 min d'inactivité
+    #   → Premier chargement = 30-60 secondes de cold start
+    #   → Pour 24/7, upgrade vers Starter ($7/mois)
