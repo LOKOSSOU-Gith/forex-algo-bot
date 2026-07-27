@@ -1,0 +1,257 @@
+[
+  {
+    "profile": "3g0r|LondonX",
+    "features": {
+      "green_count": 3,
+      "red_count": 0,
+      "direction": "PLUS_HAUT",
+      "score": 7,
+      "session": "London",
+      "overlap": true,
+      "atr": 0.00019,
+      "rsi": 59.7,
+      "price_ema_diff": 0.000280000000000058,
+      "hour": 16
+    },
+    "outcome": true,
+    "actual_direction": "UP"
+  },
+  {
+    "profile": "0g3r|Asian",
+    "features": {
+      "green_count": 0,
+      "red_count": 3,
+      "direction": "PLUS_BAS",
+      "score": 6,
+      "session": "Asian",
+      "overlap": false,
+      "atr": 0.00012,
+      "rsi": 34.2,
+      "price_ema_diff": -0.0001500000000000945,
+      "hour": 8
+    },
+    "outcome": true,
+    "actual_direction": "DOWN"
+  },
+  {
+    "profile": "3g0r|Asian",
+    "features": {
+      "green_count": 3,
+      "red_count": 0,
+      "direction": "PLUS_HAUT",
+      "score": 6,
+      "session": "Asian",
+      "overlap": false,
+      "atr": 0.00012,
+      "rsi": 63.2,
+      "price_ema_diff": 7.00000000000145e-05,
+      "hour": 8
+    },
+    "outcome": true,
+    "actual_direction": "UP"
+  },
+  {
+    "profile": "0g3r|Asian",
+    "features": {
+      "green_count": 0,
+      "red_count": 3,
+      "direction": "PLUS_BAS",
+      "score": 6,
+      "session": "Asian",
+      "overlap": false,
+      "atr": 0.00016,
+      "rsi": 30.5,
+      "price_ema_diff": -0.00026999999999999247,
+      "hour": 8
+    },
+    "outcome": false,
+    "actual_direction": "UP"
+  },
+  {
+    "profile": "3g0r|Asian",
+    "features": {
+      "green_count": 3,
+      "red_count": 0,
+      "direction": "PLUS_HAUT",
+      "score": 6,
+      "session": "Asian",
+      "overlap": false,
+      "atr": 0.00017,
+      "rsi": 82.3,
+      "price_ema_diff": 0.0005299999999999194,
+      "hour": 8
+    },
+    "outcome": true,
+    "actual_direction": "UP"
+  },
+  {
+    "profile": "0g3r|London",
+    "features": {
+      "green_count": 0,
+      "red_count": 3,
+      "direction": "PLUS_BAS",
+      "score": 6,
+      "session": "London",
+      "overlap": false,
+      "atr": 0.00011,
+      "rsi": 26.7,
+      "price_ema_diff": -0.00021999999999988695,
+      "hour": 9
+    },
+    "outcome": true,
+    "actual_direction": "DOWN"
+  },
+  {
+    "profile": "3g0r|London",
+    "features": {
+      "green_count": 3,
+      "red_count": 0,
+      "direction": "PLUS_HAUT",
+      "score": 6,
+      "session": "London",
+      "overlap": false,
+      "atr": 0.00014,
+      "rsi": 74.3,
+      "price_ema_diff": 0.000280000000000058,
+      "hour": 10
+    },
+    "outcome": true,
+    "actual_direction": "UP"
+  },
+  {
+    "profile": "0g3r|London",
+    "features": {
+      "green_count": 0,
+      "red_count": 3,
+      "direction": "PLUS_BAS",
+      "score": 6,
+      "session": "London",
+      "overlap": false,
+      "atr": 0.00016,
+      "rsi": 38.6,
+      "price_ema_diff": -0.00010999999999983245,
+      "hour": 11
+    },
+    "outcome": true,
+    "actual_direction": "DOWN"
+  },
+  {
+    "profile": "3g0r|London",
+    "features": {
+      "green_count": 3,
+      "red_count": 0,
+      "direction": "PLUS_HAUT",
+      "score": 6,
+      "session": "London",
+      "overlap": false,
+      "atr": 0.00013,
+      "rsi": 66.4,
+      "price_ema_diff": 0.00012999999999996348,
+      "hour": 12
+    },
+    "outcome": false,
+    "actual_direction": "DOWN"
+  },
+  {
+    "profile": "0g3r|London",
+    "features": {
+      "green_count": 0,
+      "red_count": 3,
+      "direction": "PLUS_BAS",
+      "score": 8,
+      "session": "London",
+      "overlap": false,
+      "atr": 0.00017,
+      "rsi": 24.0,
+      "price_ema_diff": -0.00042999999999993044,
+      "hour": 12
+    },
+    "outcome": false,
+    "actual_direction": "UP"
+  },
+  {
+    "profile": "3g0r|LondonX",
+    "features": {
+      "green_count": 3,
+      "red_count": 0,
+      "direction": "PLUS_HAUT",
+      "score": 9,
+      "session": "London",
+      "overlap": true,
+      "atr": 0.00016,
+      "rsi": 63.6,
+      "price_ema_diff": 0.00015999999999993797,
+      "hour": 13
+    },
+    "outcome": true,
+    "actual_direction": "UP"
+  },
+  {
+    "profile": "0g3r|LondonX",
+    "features": {
+      "green_count": 0,
+      "red_count": 3,
+      "direction": "PLUS_BAS",
+      "score": 7,
+      "session": "London",
+      "overlap": true,
+      "atr": 0.00012,
+      "rsi": 23.4,
+      "price_ema_diff": -0.00026999999999999247,
+      "hour": 13
+    },
+    "outcome": false,
+    "actual_direction": "UP"
+  },
+  {
+    "profile": "3g0r|LondonX",
+    "features": {
+      "green_count": 3,
+      "red_count": 0,
+      "direction": "PLUS_HAUT",
+      "score": 9,
+      "session": "London",
+      "overlap": true,
+      "atr": 0.00017,
+      "rsi": 59.5,
+      "price_ema_diff": 2.999999999997449e-05,
+      "hour": 14
+    },
+    "outcome": true,
+    "actual_direction": "UP"
+  },
+  {
+    "profile": "0g3r|LondonX",
+    "features": {
+      "green_count": 0,
+      "red_count": 3,
+      "direction": "PLUS_BAS",
+      "score": 7,
+      "session": "London",
+      "overlap": true,
+      "atr": 0.00021,
+      "rsi": 41.4,
+      "price_ema_diff": -0.00011999999999989797,
+      "hour": 15
+    },
+    "outcome": true,
+    "actual_direction": "DOWN"
+  },
+  {
+    "profile": "3g0r|LondonX",
+    "features": {
+      "green_count": 3,
+      "red_count": 0,
+      "direction": "PLUS_HAUT",
+      "score": 7,
+      "session": "London",
+      "overlap": true,
+      "atr": 0.00014,
+      "rsi": 67.4,
+      "price_ema_diff": 0.00012999999999996348,
+      "hour": 15
+    },
+    "outcome": false,
+    "actual_direction": "DOWN"
+  }
+]

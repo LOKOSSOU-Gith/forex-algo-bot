@@ -1,0 +1,24 @@
+# 📈 Forex Algo Bot — Render Blueprint
+# https://render.com/docs/blueprint-spec
+# 
+# 1. Push ce dossier sur GitHub
+# 2. Va sur https://dashboard.render.com/blueprints
+# 3. Connecte ton repo GitHub
+# 4. Render déploie automatiquement !
+
+services:
+  # ─── Web Service: Forex Algo Bot ───────────────────────────
+  - type: web
+    name: forex-algo-bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-hf.txt
+    startCommand: python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0
+      - key: PORT
+        value: 10000
+    healthCheckPath: /
+    autoDeploy: true
+    # Domaine : https://forex-algo-bot.onrender.com

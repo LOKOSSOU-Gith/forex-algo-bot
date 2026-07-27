@@ -1,0 +1,22 @@
+# Forex Algo Bot — Replit Configuration
+# Replit lit ce fichier pour savoir comment lancer l'app
+
+run = "python app.py"
+
+# Mapping de port : Gradio écoute sur 7860,
+# Replit le rend accessible publiquement sur le port 80 (HTTP)
+[[ports]]
+localPort = 7860
+externalPort = 80
+
+# Langage et configuration Python
+[nix]
+channel = "stable-24_11"
+
+[deployment]
+run = ["python", "app.py"]
+deploymentTarget = "cloudrun"
+ignorePorts = false
+
+[packager]
+language = "python3"
